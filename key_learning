@@ -1,0 +1,14 @@
+EXCEL FOR DATA ANALYSIS
+
+Absolute Reference:
+The absolute reference locks a specific cell address, so it doesn't change when we copy or fill a formula to other cells.
+Example: 
+1. $A$2 - both the column A and row 2 are locked 
+   (A1*$B$2 here the value in A2 is fixed and when dragged, all the values in 'A' column is multipled with the value in 'B2')
+2. $A2 - only the column is locked 
+   (when selected and draged the exact values on 'A2' column will be displayed in new column)
+3. A$2 - only the row is locked
+   (when draged left/right, the row value is fixed but column shifts. But when draged down, the selected row is locked and 
+    keeps showing the same selected row value)
+4. A2 - neither is locked
+   (fully relative, we can drag and view the relative cells left/right and up/down values)
